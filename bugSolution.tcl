@@ -1,0 +1,1 @@
+proc goodproc {a b} {if {[string is double -strict $a] && [string is double -strict $b]} {if {[expr {$a == $b}]} {return 1} {return 0}} {if {$a eq $b} {return 1} {return 0}}}
